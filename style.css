@@ -122,8 +122,8 @@ label {
 }
 
 .image1 {
-    width: 250px;
-    height: 150px;
+    width: 206px;
+    height: fit-content;
     margin-top: 1em;
     border-radius: .9em;
 }
@@ -140,7 +140,7 @@ label {
 }
 
 .image2 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -148,6 +148,7 @@ label {
 
 .text2 {
     margin-top: 9em;
+    font-size: small;
 }
 
 .contant3 {
@@ -157,7 +158,7 @@ label {
 }
 
 .image3 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -165,6 +166,7 @@ label {
 
 .text3 {
     margin-top: 6em;
+    font-size: small;
 }
 
 .contant4 {
@@ -174,7 +176,7 @@ label {
 }
 
 .image4 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -182,6 +184,7 @@ label {
 
 .text4 {
     margin-top: 9em;
+    font-size: small;
 }
 
 .contant5 {
@@ -191,7 +194,7 @@ label {
 }
 
 .image5 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -199,6 +202,7 @@ label {
 
 .text5 {
     margin-top: 6em;
+    font-size: small;
 }
 
 .contant6 {
@@ -208,7 +212,7 @@ label {
 }
 
 .image6 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -216,6 +220,7 @@ label {
 
 .text6 {
     margin-top: 9em;
+    font-size: small;
 }
 .contant7 {
     display: flex;
@@ -224,7 +229,7 @@ label {
 }
 
 .image7 {
-    width: 250px;
+    width: 206px;
     height: fit-content;
     margin-top: 5em;
     border-radius: .9em;
@@ -232,4 +237,5 @@ label {
 
 .text7 {
     margin-top: 6em;
+    font-size: small;
 }
