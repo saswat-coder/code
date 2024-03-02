@@ -9,15 +9,17 @@ body {
 .hero-logo {
     background-size: cover;
     width: 100%;
+    
 }
 
 .my {
    width: 50px;
 }
 
-header {
-    padding: 1em 0 0 3.5em;
-    margin-top: -3em;
+.header1 {
+    display: flex;
+    padding: 1em 0 0 3.5em; 
+    margin-top: -3.8em;
   
 }
 
@@ -40,23 +42,92 @@ header {
 }
 
 .otheroption {
-    margin: -7em 0 0 12em;
+    display: flex;
+    text-align: ;
+
 }
-    
 
+.menu-open {
+    display: flexbox;
+    margin: -3.6em 0 0 29em;
+    font-size: smaller;
+}
 
-.otheroption a {
+.item {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    margin-left: -12em;
     text-transform: uppercase;
-    font-size: .7rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-decoration: none;
-    
 }
+
+.gg-format-justify,
+.gg-format-justify::before {
+    display: block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 2px
+    border-radius: 3px;
+    background: currentColor;
+    box-shadow: 0 8px 0
+}
+.gg-format-justify {
+    margin-top: -11px;
+    transform: scale(var(--ggs,1));
+    position: relative
+}
+.gg-format-justify::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 0
+}
+
+nav {
+    display: none;
+}
+
+
+.menu-close {
+    display: flex;
+    margin-top: -4em;
+    margin-left: -4em;
+
+}
+
+.gg-close {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 40px
+   }
+   
+   .gg-close::after,
+   .gg-close::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    border-radius: 5px;
+    top: 8px;
+    left: 1px
+   }
+   
+   .gg-close::after {
+    transform: rotate(-45deg)
+   } 
 
 #button {
     width: 15%;
-    margin-left: 26.5em;
+    margin-left: 25em;
     margin-top: 3em;
     text-align: right;
     margin-right: .3em;
